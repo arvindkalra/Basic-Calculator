@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <style>
+        .box{
+            display: inline-block;
+            width: 500px;
+            border: solid;
+            border-color: black;
+            border-radius: 4px;
+            padding-bottom: 10px;
+            position: relative;
+            left:30%;
+        }
+        button{
+            margin-bottom: 5px;
+            width: 100%;
+        }
+        .ansbx{
+            min-height: 40px !important;
+            font-size: 25px;
+            margin: 9px 0;
+            border: solid;
+            border-color: darkgrey;
+            border-width: 1px;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+<div class="row box">
+    <div class="col s1 m1 l1 xl1"></div>
+    <div class="input-field col s10 m10 l10 xl10 ansbx">
+        <div id="ans" style="text-align: right;"></div>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="ac">AC</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="plus">+</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="minus">-</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="multi">*</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="one">1</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="two">2</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="three">3</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="divi">/</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="four">4</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="five">5</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="six">6</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="dot">.</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="seven">7</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="eight">8</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="nine">9</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="zero">0</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="open">(</button>
+    </div>
+    <div class="col s6 m6 l6 xl6">
+        <button class="waves-effect waves-light btn" id="equal">=</button>
+    </div>
+    <div class="col s3 m3 l3 xl3">
+        <button class="waves-effect waves-light btn" id="close">)</button>
+    </div>
+</div>
+<script src="back.js"></script>
+</body>
+</html>
